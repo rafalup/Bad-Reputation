@@ -9,6 +9,12 @@
   "author": "oirafin",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "neat-csv": "^7.0.0",
     "pg": "^8.7.1"
   }
 }
