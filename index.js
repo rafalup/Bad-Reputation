@@ -34,7 +34,7 @@ async function createTable() {
 }
 
 async function insert() {
-    let stream = fs.createReadStream("arquivo.csv");
+    let stream = fs.createReadStream("./src/arquivo.csv");
     let csvData = [];
     let csvStream = fastcsv
     .parse()
